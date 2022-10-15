@@ -1,0 +1,193 @@
+{
+  "appPageId" : "5b112783-0954-4dab-b654-ab8d54b9d615",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "8e78bc64-9ce1-4d52-9b6f-695a930c9aaa",
+  "label" : "Category",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"b2a3beb3-f8e3-44c7-8eaa-4072c89b730e\",\"columns\":[{\"UUID\":\"e42231e4-6cd8-4729-a4a6-9714d740bd97\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "b2a3beb3-f8e3-44c7-8eaa-4072c89b730e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "lastItemIsLink" : false,
+            "showHomeBreadcrumb" : true
+          },
+          "componentName" : "b2c_lite_commerce:categoryBreadCrumbs",
+          "id" : "95d53f9a-5e77-419a-bb46-d1fddb9f0d72",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e42231e4-6cd8-4729-a4a6-9714d740bd97",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"e67f70fd-f543-436b-830e-23e5789a6ae4\",\"columns\":[{\"UUID\":\"6d53716c-35c8-4c36-a73c-9a0cddebf96e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "e67f70fd-f543-436b-830e-23e5789a6ae4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "titleColor" : "rgb(0, 0, 0)"
+          },
+          "componentName" : "b2c_lite_commerce:categoryBanner",
+          "id" : "702a2140-6ef1-4dfb-9b07-ada2ffeb7bee",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "browseStep" : 3,
+            "headerText" : "Shop By Category",
+            "pageSize" : 6
+          },
+          "componentName" : "b2c_lite_commerce:shopCategory",
+          "id" : "71cba5b7-7ba4-448e-8a31-aa02ba505d53",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "addToCartButtonText" : "Add to Cart",
+            "callToActionButtonBackgroundColor" : "rgb(0, 95, 178)",
+            "callToActionButtonBackgroundHoverColor" : "rgb(0, 73, 137)",
+            "callToActionButtonBorderRadius" : 0,
+            "callToActionButtonTextColor" : "rgb(255, 255, 255)",
+            "callToActionButtonTextHoverColor" : "rgb(255, 255, 255)",
+            "cardAlignment" : "center",
+            "cardBackgroundColor" : "rgb(255, 255, 255)",
+            "cardBorderColor" : "rgba(255, 255, 255, 0)",
+            "cardBorderRadius" : 0,
+            "cardDividerColor" : "rgb(221, 219, 218)",
+            "gridColumnSpacing" : "small",
+            "gridMaxColumnsDisplayed" : 4,
+            "gridRowSpacing" : "large",
+            "listRowSpacing" : "small",
+            "negotiatedPriceTextColor" : "rgb(0, 0, 0)",
+            "negotiatedPriceTextSize" : "medium",
+            "originalPriceTextColor" : "rgb(0, 0, 0)",
+            "originalPriceTextSize" : "small",
+            "pageResultsType" : "searchResults",
+            "pageTitleFontColor" : "",
+            "pageTitleFontSize" : "large",
+            "resultsDataSource" : "commerce",
+            "resultsLayout" : "grid",
+            "showCallToActionButton" : false,
+            "showNegotiatedPrice" : true,
+            "showOriginalPrice" : true,
+            "showProductImage" : true,
+            "showSearchSortingMenu" : true,
+            "siteResultsListRowSpacing" : "small",
+            "viewOptionsButtonText" : "View Options"
+          },
+          "componentName" : "dxp_search:searchResults",
+          "id" : "f7d46958-de85-4cc9-ad76-1575b0ca686f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "callToActionButtonLabel" : "Add To Cart",
+            "displayName" : true,
+            "displayPrice" : true,
+            "displayQuantitySelectorAndCallToActionButton" : false,
+            "headerText" : "Top Selling in Category",
+            "manualCategoryId" : "",
+            "manualProductId" : "",
+            "maxProductsVisible" : "4",
+            "minProductsVisible" : "2",
+            "priceToDisplay" : "strikethrough",
+            "quantitySelectorLabel" : "qty",
+            "selectedAnchorType" : "categoryRecord",
+            "selectedRecNameCategoryManual" : "most-viewed-by-category",
+            "selectedRecNameCategoryRecord" : "top-selling-by-category",
+            "selectedRecNameNoContext" : "recently-viewed",
+            "selectedRecNameProductCart" : "similar-products",
+            "selectedRecNameProductManual" : "similar-products",
+            "selectedRecNameProductRecord" : "similar-products"
+          },
+          "componentName" : "b2c_lite_commerce:einsteinProductRecommendations",
+          "id" : "7643fce1-8f74-4b4a-b54c-af2caa423120",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "callToActionButtonLabel" : "Add To Cart",
+            "displayName" : true,
+            "displayPrice" : true,
+            "displayQuantitySelectorAndCallToActionButton" : false,
+            "headerText" : "Most Viewed in Category",
+            "manualCategoryId" : "",
+            "manualProductId" : "",
+            "maxProductsVisible" : "4",
+            "minProductsVisible" : "2",
+            "priceToDisplay" : "strikethrough",
+            "quantitySelectorLabel" : "qty",
+            "selectedAnchorType" : "categoryRecord",
+            "selectedRecNameCategoryManual" : "most-viewed-by-category",
+            "selectedRecNameCategoryRecord" : "most-viewed-by-category",
+            "selectedRecNameNoContext" : "recently-viewed",
+            "selectedRecNameProductCart" : "similar-products",
+            "selectedRecNameProductManual" : "similar-products",
+            "selectedRecNameProductRecord" : "similar-products"
+          },
+          "componentName" : "b2c_lite_commerce:einsteinProductRecommendations",
+          "id" : "fbd13e3c-e692-4afd-a473-8deb258136eb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6d53716c-35c8-4c36-a73c-9a0cddebf96e",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "e6d21680-3ec5-4f81-a611-2492eeee890d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "{!Record._Object}: {!Record._Title}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "35772e30-f67f-47f4-a1d4-7360b39d12f9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e67702e7-4302-4500-a541-995282fc1b5b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0ZG"
+}

@@ -1,0 +1,59 @@
+{
+  "appPageId" : "5b112783-0954-4dab-b654-ab8d54b9d615",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "dfd60194-defd-4fcf-a960-d3473f37d242",
+  "label" : "Error",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"58a5c558-b0b5-4479-86e9-9c9dcbcc4cd5\",\"columns\":[{\"UUID\":\"000fa99e-ab05-4ab2-808a-280af5787512\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "58a5c558-b0b5-4479-86e9-9c9dcbcc4cd5",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "b2c_lite_commerce:error",
+          "id" : "507c0ded-6548-4e42-a717-b7fcdefbe528",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "000fa99e-ab05-4ab2-808a-280af5787512",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "4c36323c-7cca-486a-a8d5-d8d0d8e32f87",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Error",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "ca16e2d6-211d-4714-8b22-eba7e092e32a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8091b5e7-c76b-4cc9-bff2-ff9ea8c6b891",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "error"
+}

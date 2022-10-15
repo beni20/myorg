@@ -1,0 +1,149 @@
+{
+  "appPageId" : "5b112783-0954-4dab-b654-ab8d54b9d615",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "a9a39171-8b93-45da-ba23-3d9dac8919f4",
+  "label" : "Cart",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"71d0f43b-57e8-4c57-bd06-97314ece3ac9\",\"columns\":[{\"UUID\":\"87420240-9740-4534-a3e6-6a94113630e1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"8\",\"seedComponents\":null},{\"UUID\":\"b487f1bc-965f-4f29-b6ea-82ea2b087c68\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "71d0f43b-57e8-4c57-bd06-97314ece3ac9",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "browseStep" : 1,
+            "emptyCartBodyLabel" : "Continue Shopping",
+            "emptyCartHeaderLabel" : "Your cart is empty right now",
+            "headerText" : "Shop By Category",
+            "negotiatedTextSize" : "large",
+            "originalTextSize" : "small",
+            "pageSize" : 4,
+            "showNegotiatedPrice" : true,
+            "showOriginalPrice" : true,
+            "showPricePerUnit" : true,
+            "showProductImage" : true,
+            "showSku" : true,
+            "skuLabel" : "SKU#"
+          },
+          "componentName" : "b2c_lite_commerce:cartContents",
+          "id" : "04c6fceb-26f8-4e78-b154-e20baa616ce3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "87420240-9740-4534-a3e6-6a94113630e1",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "componentHeader" : "Summary",
+            "discountAmountFontSize" : "small",
+            "originalTextSize" : "small",
+            "promotionsLabel" : "Promotions",
+            "shippingLabel" : "Shipping",
+            "shippingTextSize" : "small",
+            "showDiscountAmount" : true,
+            "showOriginalPrice" : false,
+            "showShippingPrice" : true,
+            "showSubtotalPrice" : true,
+            "showTaxIncludedLabel" : true,
+            "showTaxPrice" : true,
+            "subtotalLabel" : "Subtotal",
+            "subtotalTextSize" : "small",
+            "taxIncludedLabel" : "Tax Included",
+            "taxIncludedLabelTextSize" : "small",
+            "taxLabel" : "Tax",
+            "taxTextSize" : "small",
+            "totalLabel" : "Total",
+            "totalTextSize" : "medium"
+          },
+          "componentName" : "b2c_lite_commerce:cartSummary",
+          "id" : "3d085927-ab8b-46ea-a739-af392db4edf8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonAlignItems" : "left",
+            "buttonBorderRadius" : 0,
+            "buttonMaxWidth" : 100,
+            "buttonText" : "Checkout"
+          },
+          "componentName" : "b2c_lite_commerce:checkoutButton",
+          "id" : "04edf2a7-943c-4009-8a6a-3db49d995f56",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b487f1bc-965f-4f29-b6ea-82ea2b087c68",
+        "regionLabel" : "Column 2",
+        "regionName" : "col2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"b86fbf27-a9cb-4d3e-8d68-4e1d5e44d0ad\",\"columns\":[{\"UUID\":\"7a833c4f-6601-46ee-91bc-57335b225821\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "b86fbf27-a9cb-4d3e-8d68-4e1d5e44d0ad",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "callToActionButtonLabel" : "Add To Cart",
+            "displayName" : true,
+            "displayPrice" : true,
+            "displayQuantitySelectorAndCallToActionButton" : false,
+            "headerText" : "Customers Also Bought",
+            "manualCategoryId" : "",
+            "manualProductId" : "",
+            "maxProductsVisible" : "4",
+            "minProductsVisible" : "2",
+            "priceToDisplay" : "strikethrough",
+            "quantitySelectorLabel" : "qty",
+            "selectedAnchorType" : "productCart",
+            "selectedRecNameCategoryManual" : "most-viewed-by-category",
+            "selectedRecNameCategoryRecord" : "most-viewed-by-category",
+            "selectedRecNameNoContext" : "recently-viewed",
+            "selectedRecNameProductCart" : "upsell",
+            "selectedRecNameProductManual" : "similar-products",
+            "selectedRecNameProductRecord" : "similar-products"
+          },
+          "componentName" : "b2c_lite_commerce:einsteinProductRecommendations",
+          "id" : "c9f9b4c1-09aa-4f03-8c1a-fddac1fca3fa",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7a833c4f-6601-46ee-91bc-57335b225821",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "1ee02a8a-867e-4a20-916b-09453c31ffeb",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "current-cart"
+}

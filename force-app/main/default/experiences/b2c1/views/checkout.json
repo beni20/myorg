@@ -1,0 +1,163 @@
+{
+  "appPageId" : "5b112783-0954-4dab-b654-ab8d54b9d615",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "b174c7c1-f0c7-46f5-839d-780e4c717da4",
+  "label" : "Checkout",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"48d373c4-0c2a-4c54-a310-d381ca6324a0\",\"columns\":[{\"UUID\":\"6ab0dca2-1382-4e59-b65b-a76a4daeea7f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"8\",\"seedComponents\":[]},{\"UUID\":\"12720f6a-fe0c-4e04-8e3b-7460761fab84\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "48d373c4-0c2a-4c54-a310-d381ca6324a0",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "stepsConfig" : "[{\"checkoutStepKey\":\"ShippingAddress\",\"checkoutStepName\":\"Shipping Address\",\"proceedButtonLabel\":\"Next\",\"isExpanded\":true,\"seedComponents\":[{\"fqn\":\"commerce_unified_checkout:guestContact\",\"attributes\":{}},{\"fqn\":\"commerce_unified_checkout:shipping\",\"attributes\":{}},{\"fqn\":\"commerce_unified_checkout:shippingInstructions\",\"attributes\":{}}]},{\"checkoutStepKey\":\"ShippingMethod\",\"checkoutStepName\":\"Shipping Method\",\"proceedButtonLabel\":\"Next\",\"isExpanded\":true,\"seedComponents\":[{\"fqn\":\"commerce_unified_checkout:shippingMethod\",\"attributes\":{}}]},{\"checkoutStepKey\":\"Payment\",\"checkoutStepName\":\"Payment\",\"proceedButtonLabel\":\"Place Order\",\"isExpanded\":true,\"seedComponents\":[{\"fqn\":\"commerce_unified_checkout:paymentWithBilling\",\"attributes\":{}}]}]"
+          },
+          "componentName" : "commerce_unified_checkout:checkout",
+          "id" : "bf37cee1-46d0-4512-b41a-695a0d16191b",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "emailLabel" : "Email"
+              },
+              "componentName" : "commerce_unified_checkout:guestContact",
+              "id" : "d9efe4a4-50ce-49b1-8896-41887f7d7c29",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "backToListLabel" : "Back to list",
+                "componentHeaderEditAddressLabel" : "Edit Address",
+                "componentHeaderNewAddressLabel" : "New Address",
+                "editAddressLabel" : "Edit",
+                "linkToMap" : false,
+                "makeDefaultAddressLabel" : "Make this my default address",
+                "nameField" : "Person Name",
+                "newAddressButtonLabel" : "New Address",
+                "phoneNumberLabel" : "Phone Number",
+                "phoneNumberPlaceholderText" : "",
+                "shippingAddressLimit" : "6",
+                "shippingAddressLimitIncrease" : "6",
+                "showComponentHeader" : true,
+                "showMoreButtonLabel" : "Show More"
+              },
+              "componentName" : "commerce_unified_checkout:shipping",
+              "id" : "0b70d583-f2ab-4503-9559-7c8138a11841",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "headerLabel" : "Shipping Instructions",
+                "placeholderLabel" : "Add special delivery instructions, if any.",
+                "showHeaderLabel" : true
+              },
+              "componentName" : "commerce_unified_checkout:shippingInstructions",
+              "id" : "b08f3ef3-2760-45e2-a881-6783067f270f",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "93de9650-f5a5-4a9c-851c-61a9960e22a6",
+            "regionLabel" : "Shipping Address",
+            "regionName" : "ShippingAddress",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "commerce_unified_checkout:shippingMethod",
+              "id" : "538573e2-2053-4614-bc1d-aad8337719e2",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "401c29f7-8987-4fde-9fcb-ef47a4f9aecb",
+            "regionLabel" : "Shipping Method",
+            "regionName" : "ShippingMethod",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "billingAddressFieldsetLegendLabel" : "Billing Address",
+                "billingAddressSameAsShippingAddressLabel" : "My billing address is the same as my shipping address",
+                "phoneNumberLabel" : "Phone Number",
+                "phoneNumberPlaceholderText" : "",
+                "showBillingAddressHeading" : true
+              },
+              "componentName" : "commerce_unified_checkout:paymentWithBilling",
+              "id" : "36ea7816-c329-42c4-8992-d523f1acd92e",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "ee5761b6-5ea3-4462-aab2-4d945ce7ebb5",
+            "regionLabel" : "Payment",
+            "regionName" : "Payment",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6ab0dca2-1382-4e59-b65b-a76a4daeea7f",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "componentHeader" : "Summary",
+            "discountAmountFontSize" : "small",
+            "originalTextSize" : "small",
+            "promotionsLabel" : "Promotions",
+            "shippingLabel" : "Shipping",
+            "shippingTextSize" : "small",
+            "showDiscountAmount" : true,
+            "showOriginalPrice" : false,
+            "showShippingPrice" : true,
+            "showSubtotalPrice" : true,
+            "showTaxIncludedLabel" : true,
+            "showTaxPrice" : true,
+            "subtotalLabel" : "Subtotal",
+            "subtotalTextSize" : "small",
+            "taxIncludedLabel" : "Tax Included",
+            "taxIncludedLabelTextSize" : "small",
+            "taxLabel" : "Tax",
+            "taxTextSize" : "small",
+            "totalLabel" : "Total",
+            "totalTextSize" : "medium"
+          },
+          "componentName" : "b2c_lite_commerce:cartSummary",
+          "id" : "79028441-8179-4035-94aa-6c5ef16ccd03",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "12720f6a-fe0c-4e04-8e3b-7460761fab84",
+        "regionLabel" : "Column 2",
+        "regionName" : "col2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "c83a2938-0353-4d8f-a85b-8b1521586e5e",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Checkout",
+  "type" : "view",
+  "viewType" : "current-checkout"
+}
