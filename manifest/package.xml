@@ -2267,6 +2267,21 @@
 		<name>TransactionSecurityPolicy</name>
 	</types>
 	<types>
+		<members>b2b.Customer_Members</members>
+		<members>b2b.Members_without_contribution</members>
+		<members>b2b.Partner_and_Customer_members</members>
+		<members>b2c.Customer_Members</members>
+		<members>b2c.Members_without_contribution</members>
+		<members>b2c.Partner_and_Customer_members</members>
+		<members>be.Customer_Members</members>
+		<members>be.Members_without_contribution</members>
+		<members>be.Partner_and_Customer_members</members>
+		<members>lw.Customer_Members</members>
+		<members>lw.Members_without_contribution</members>
+		<members>lw.Partner_and_Customer_members</members>
+		<name>UserCriteria</name>
+	</types>
+	<types>
 		<members>sf_devops__Async_Operation_Result__c.sf_devops__Operation_No_Change</members>
 		<members>sf_devops__Change_Bundle_Install__c.sf_devops__Project_Reference</members>
 		<members>sf_devops__Change_Bundle__c.sf_devops__Unique_Name</members>
