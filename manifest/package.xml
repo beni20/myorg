@@ -609,6 +609,12 @@
 		<name>LiveChatSensitiveDataRule</name>
 	</types>
 	<types>
+		<members>cms_document</members>
+		<members>cms_image</members>
+		<members>news</members>
+		<name>ManagedContentType</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>ManagedTopics</name>
 	</types>
@@ -767,6 +773,66 @@
 	<types>
 		<members>*</members>
 		<name>TransactionSecurityPolicy</name>
+	</types>
+	<types>
+		<members>sf_devops__Async_Operation_Result__c.sf_devops__Operation_No_Change</members>
+		<members>sf_devops__Change_Bundle_Install__c.sf_devops__Project_Reference</members>
+		<members>sf_devops__Change_Bundle__c.sf_devops__Unique_Name</members>
+		<members>sf_devops__Change_Submission__c.sf_devops__Prior_Remote_Reference_External_Only</members>
+		<members>sf_devops__Change_Submission__c.sf_devops__Work_Item_and_Repository_Same_Project</members>
+		<members>sf_devops__Environment__c.sf_devops__Unique_Name</members>
+		<members>sf_devops__Object_Activity__c.sf_devops__Change_Submission_Work_Item</members>
+		<members>sf_devops__Object_Activity__c.sf_devops__Environment_Project</members>
+		<members>sf_devops__Object_Activity__c.sf_devops__Parent_Activity_Project</members>
+		<members>sf_devops__Object_Activity__c.sf_devops__Pipeline_Project</members>
+		<members>sf_devops__Object_Activity__c.sf_devops__Target_Stage_Pipeline</members>
+		<members>sf_devops__Object_Activity__c.sf_devops__Work_Item_Project</members>
+		<members>sf_devops__Pipeline_Stage__c.sf_devops__Branch_Without_Remote_Reference</members>
+		<members>sf_devops__Pipeline_Stage__c.sf_devops__No_Changes_For_Active_Pipelines</members>
+		<members>sf_devops__Pipeline_Stage__c.sf_devops__No_New_Stages_For_Active_Pipelines</members>
+		<members>sf_devops__Pipeline_Stage__c.sf_devops__Promote_Review_Remote_Ref_Required</members>
+		<members>sf_devops__Pipeline_Stage__c.sf_devops__Promote_Review_Url_Required</members>
+		<members>sf_devops__Pipeline_Stage__c.sf_devops__Promote_Review_Versioned</members>
+		<members>sf_devops__Pipeline_Stage__c.sf_devops__Promote_Url_Validation</members>
+		<members>sf_devops__Pipeline__c.sf_devops__Unique_Name</members>
+		<members>sf_devops__Project__c.sf_devops__No_Platform_Repository_Change</members>
+		<members>sf_devops__Project__c.sf_devops__Unique_Name</members>
+		<members>sf_devops__Remote_Change__c.sf_devops__Project_Reference</members>
+		<members>sf_devops__Repository__c.sf_devops__GitHub_Properties</members>
+		<members>sf_devops__Repository__c.sf_devops__No_Property_Changes</members>
+		<members>sf_devops__Repository__c.sf_devops__Require_GitHub_Properties</members>
+		<members>sf_devops__Submit_Component__c.sf_devops__File_Path</members>
+		<members>sf_devops__Vcs_Event__c.sf_devops__Disable_Handled</members>
+		<members>sf_devops__Work_Item_Promote__c.sf_devops__No_Promotion_to_Inactive_Pipeline</members>
+		<members>sf_devops__Work_Item_Promote__c.sf_devops__Promoted_And_Installed</members>
+		<members>sf_devops__Work_Item_Promote__c.sf_devops__Promoted_To_Versioned</members>
+		<members>sf_devops__Work_Item_Promote__c.sf_devops__Promoted_Without_Approval</members>
+		<members>sf_devops__Work_Item_Promote__c.sf_devops__Promoted_Wrong_Project</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Approved_By_Without_Approved</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Approved_Without_Approved_By</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Approved_Without_Review</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Branch_Without_Remote_Reference</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Change_Bundle_Project</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Concluded_values</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Disable_Concluded</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Disable_Promoted</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Environment_Project</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Environment_Requires_Tracking</members>
+		<members>sf_devops__Work_Item__c.sf_devops__PromotedFromEnvironment_Changed</members>
+		<members>sf_devops__Work_Item__c.sf_devops__PromotedFromEnvironment_Set</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Promoted_And_Installed</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Promoted_On_Create</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Promoted_Without_Approval</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Remote_Reference_Without_Review</members>
+		<members>sf_devops__Work_Item__c.sf_devops__Review_Without_Remote_Reference</members>
+		<name>ValidationRule</name>
+	</types>
+	<types>
+		<members>Account.Billing</members>
+		<members>Campaign.ViewCampaignInfluenceReport</members>
+		<members>Case.UpsellCrosssellOpportunity</members>
+		<members>Opportunity.DeliveryStatus</members>
+		<name>WebLink</name>
 	</types>
 	<types>
 		<members>*</members>
